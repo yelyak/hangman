@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: white;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/026/901/755/small/ai-generated-ai-generative-mist-magic-fog-night-dark-forest-tree-jungle-landscape-background-scary-nature-outdoor-adventure-explore-travel-vibe-style-graphic-art-photo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(0, 0, 0, 0.7);
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.scoreBoard {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #00FF00;
+  font-weight: bold;
+}
+
+.hangmanImage img {
+width: 500px;
+}
+
+.wordGuess{
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+  color: #00FF00;
+}
+
+.keyboard button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 200px;
+  background-color: violet;
+  color: green;
+  font-weight: bold;
+}
+
+.keyboard button.correct {
+  background-color: #3fde44;
+  pointer-events: none;
+}
+
+.keyboard button.incorrect {
+  background-color: #a52b22;
+  pointer-events: none;
+}
+
+.afterGame button {
+  margin: 5px auto;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 200px;
+  background-color: #506991;
+  color: #080c0b;
+  font-weight: bold;
+  display: none;
+}
+
+.afterGame{
+  text-align: center;
+}
+
+
+.playerOption{
+  margin: 5px auto;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 200px;
+  background-color: #506991;
+  color: #080c0b;
+  font-weight: bold;
+
+}
+
+#wordForm input[type="text"] {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px:
+}
+
+.input-section input[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 200px;
+  background-color: #506991;
+  color: #080c0b;
+  font-weight: bold;
+}
+
+#wordForm2 input[type="text"] {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px:
+  border: none;
+  
+}
+#wordForm2{
+  display: none;
+}
+
+.errorMessage{
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: #ffa8a8;
+  margin-top: 50px;
+  display: none;
+}
+
+.playerTurn {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+/* add by Timmy */
+a{
+  text-decoration: none;
+}
